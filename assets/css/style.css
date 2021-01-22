@@ -453,6 +453,10 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#hero .img-fluid{
+  width: 80%;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -767,7 +771,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/discord.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
